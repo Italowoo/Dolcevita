@@ -1,0 +1,61 @@
+
+/* General Body Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b3e27; /* Verde Bosque */
+    color: #fff;
+}
+
+/* Hero Section (Página de Inicio) */
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    padding: 80px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #e1c16e; /* Dorado */
+    color: #2b3e27;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c28a00;
+}
+
+/* Sección General */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Galería de Productos */
+.products-gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.products-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Testimonios */
+.testimonial {
+    font-size: 18px;
+    margin: 15px;
+}
